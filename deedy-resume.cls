@@ -34,13 +34,12 @@
 \usepackage{fontawesome}
 \newfontfamily{\FA}{FontAwesome}
 
-\def\twitter{{\FA \faEnvelopeO}}
+\def\envelope{{\FA \faEnvelopeO}}
 \def\twitter{{\FA \faTwitter}}
 \def\github{{\FA \faGithub}}
 \def\githubAlt{{\FA \faGithubAlt}}
 \def\linkedIn{{\FA \faLinkedin}}
 \def\phone{{\FA \faPhone}}
-\def\envelope{{\FA \faEnvelope}}
 
 
 %----------------------------------------------------------------------------------------
