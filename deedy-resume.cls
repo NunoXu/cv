@@ -38,8 +38,8 @@
 \def\github{{\FA \faGithub}}
 \def\githubAlt{{\FA \faGithubAlt}}
 \def\linkedIn{{\FA \faLinkedin}}
-\def\Phone{{\FA \faPhone}}
-\def\Envelope{{\FA \faEnvelope}}
+\def\phone{{\FA \faPhone}}
+\def\envelope{{\FA \faEnvelope}}
 
 
 %----------------------------------------------------------------------------------------
