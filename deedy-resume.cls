@@ -49,7 +49,8 @@ Last Updated on \today % Last Updated text
 %----------------------------------------------------------------------------------------
 %	MAIN HEADING COMMAND
 %----------------------------------------------------------------------------------------
-
+\newcommand{\profilePicture}[4]{\begin{picture}(0,0) \put(#2,#3){\includegraphics[width=#4]{#1}} \end{picture}
+}
 \newcommand{\namesection}[4]{ % Defines the command for the main heading
 \begin{picture}(0,0)\put(-190,-35){\includegraphics[width=25mm]{#1}} \end{picture}
 \centering{ % Center the name
