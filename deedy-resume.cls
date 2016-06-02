@@ -64,6 +64,9 @@ Last Updated on \today % Last Updated text
 %----------------------------------------------------------------------------------------
 \newcommand{\profilePicture}[4]{\begin{picture}(0,0) \put(#2,#3){\includegraphics[width=#4]{#1}} \end{picture}
 }
+
+\newcommand{\qrCode}[4]{\begin{picture}(0,0) \put(#2,#3){\includegraphics[width=#4]{#1}} \end{picture}
+}
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
 \centering{ % Center the name
 \fontsize{40pt}{60pt} % Font size
