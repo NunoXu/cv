@@ -40,6 +40,8 @@
 \def\githubAlt{{\FA \faGithubAlt \,}}
 \def\linkedIn{{\FA \faLinkedin \,}}
 \def\phone{{\FA \faPhone \,}}
+\def\user{{\FA \faUser \,}}
+\faUser
 
 
 %----------------------------------------------------------------------------------------
