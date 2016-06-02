@@ -34,7 +34,7 @@
 \usepackage{fontawesome}
 \newfontfamily{\FA}{FontAwesome}
 
-\def\envelope{{\FA \faEnvelopeO}}
+\def\envelope{{\FA \faEnvelopeO \,}}
 \def\twitter{{\FA \faTwitter}}
 \def\github{{\FA \faGithub}}
 \def\githubAlt{{\FA \faGithubAlt}}
