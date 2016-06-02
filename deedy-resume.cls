@@ -31,6 +31,17 @@
 
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight} % The font used where \sfffamily is called
 
+\usepackage{fontawesome}
+\newfontfamily{\FA}{FontAwesome}
+
+\def\twitter{{\FA \faTwitter}}
+\def\github{{\FA \faGithub}}
+\def\githubAlt{{\FA \faGithubAlt}}
+\def\linkedIn{{\FA \faLinkedin}}
+\def\Phone{{\FA \faPhone}}
+\def\Envelope{{\FA \faEnvelope}}
+
+
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
 %----------------------------------------------------------------------------------------
