@@ -65,7 +65,7 @@ Last Updated on \today % Last Updated text
 \newcommand{\profilePicture}[4]{\begin{picture}(0,0) \put(#2,#3){\includegraphics[width=#4]{#1}} \end{picture}
 }
 
-\newcommand{\qrCode}[2]{\begin{figure}(0,0) \put(260, -45){\includegraphics[width=#2]{#1}} \caption{adwad}\end{figure}
+\newcommand{\qrCode}[2]{\begin{picture}(0,0) \put(260, -45){\includegraphics[width=#2]{#1}} \caption{adwad}\end{picture}
 }
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
 \centering{ % Center the name
