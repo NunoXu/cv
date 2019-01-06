@@ -43,7 +43,6 @@
 \def\phone{{\FA \faPhone \,}}
 \def\user{{\FA \faUser \,}}
 
-
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
 %----------------------------------------------------------------------------------------
@@ -62,8 +61,9 @@ Last Updated on \today % Last Updated text
 %----------------------------------------------------------------------------------------
 %	MAIN HEADING COMMAND
 %----------------------------------------------------------------------------------------
-\newcommand{\profilePicture}[4]{\begin{picture}(0,0) \put(#2,#3){\includegraphics[width=#4]{#1}} \end{picture}
-}
+
+\usepackage{graphics} % Required for specifying custom fonts in XeLaTeX
+\newcommand{\profilePicture}[4]{\begin{picture}(0,0) \put(#2,#3){\includegraphics[width=#4]{#1}} \end{picture}}
 
 \newcommand{\qrCode}[2]{\begin{picture}(0,0) \put(260, -45){\includegraphics[width=#2]{#1}} \end{picture}
 }
