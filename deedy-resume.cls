@@ -110,5 +110,5 @@ Last Updated on \today % Last Updated text
 %----------------------------------------------------------------------------------------
 
 \newenvironment{tightitemize} % Defines the tightitemize environment which modifies the itemize environment to be more compact
-{\begin{itemize}\topsep0pt \itemsep1pt \parskip0pt \parsep0pt}
-{\end{itemize}}
+{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+{\end{itemize}\vspace{-\topsep}}
