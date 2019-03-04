@@ -62,6 +62,11 @@
     \llap{\contour{white}{#1}}%
 }
 
+\newcommand{\phubline}[1]{%
+    \uline{\phantom{#1}}%
+    \llap{\contour{white}{#1}}%
+}
+
 \newcommand{\uhref}[2]{\href{#1}{\phuline{#2}}}
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
