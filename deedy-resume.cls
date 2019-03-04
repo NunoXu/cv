@@ -48,7 +48,6 @@
 %----------------------------------------------------------------------------------------
 \hypersetup{%
     colorlinks=false,% hyperlinks will be black
-
     pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
 }
 %----------------------------------------------------------------------------------------
