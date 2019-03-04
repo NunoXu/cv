@@ -10,6 +10,7 @@
 
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage{hyperref} % Required for links
+\usepackage[ocgcolorlinks]{ocgx2}
 %----------------------------------------------------------------------------------------
 %	COLORS
 %----------------------------------------------------------------------------------------
@@ -47,8 +48,8 @@
 %	LINKS STYLING
 %----------------------------------------------------------------------------------------
 \hypersetup{%
-    colorlinks=false,
-    urlbordercolor=gray,
+    allcolors=gray,
+    allbordercolors=gray,
     pdfborderstyle={/S/U/W 0.5},% border style will be underline of width 1pt
     pdfborder=0 0 0.5% border style will be underline of width 1pt
 }
