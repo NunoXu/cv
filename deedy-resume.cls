@@ -118,8 +118,8 @@ Last Updated on \today % Last Updated text
 \titleformat{\subsection}{ % Customize the subsections and places worked/studied titles
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
-\newcommand{\runsubsection}[1]{ % Used for creating subsections where a description is required on the same line
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase{#1}\normalfont\color{primary}}
+% Used for creating subsections where a description is required on the same line
+\newcommand{\runsubsection}[1]{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase{#1}\normalfont\color{primary}}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
 \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont\color{primary}}
