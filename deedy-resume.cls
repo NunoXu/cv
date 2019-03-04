@@ -48,7 +48,7 @@
 %----------------------------------------------------------------------------------------
 \hypersetup{%
     urlbordercolor=black,
-    pdfborderstyle={/S/U/W 0.3}% border style will be underline of width 1pt
+    pdfborderstyle={/S/U/W 0.2}% border style will be underline of width 1pt
 }
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
