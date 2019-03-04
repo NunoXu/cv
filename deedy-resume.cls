@@ -50,7 +50,7 @@
 \hypersetup{%
     hidelinks
 }
-
+\setuldepth{a}
 \newcommand{\uhref}[2]{\href{#1}{\ul{#2}}}
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
