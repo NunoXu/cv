@@ -12,7 +12,6 @@
 \usepackage{hyperref} % Required for links
 \usepackage{contour}
 \usepackage{ulem}
-\usepackage{xcolor}
 
 %----------------------------------------------------------------------------------------
 %	COLORS
