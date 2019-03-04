@@ -53,7 +53,7 @@
     hidelinks
 }
 
-\urlstyle{same}
+
 \renewcommand{\ULdepth}{1.8pt}
 \contourlength{0.8pt}
 
@@ -64,7 +64,6 @@
 
 
 \newcommand{\uhref}[2]{\href{#1}{\phuline{#2}}}
-\newcommand{\uurl}[1]{\phuline{\uurl{#1}}}
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
 %----------------------------------------------------------------------------------------
