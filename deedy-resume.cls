@@ -57,9 +57,7 @@
 \renewcommand{\ULdepth}{1.8pt}
 \contourlength{0.8pt}
 
-\newcommand{\phuline}[1]{\uline{\phantom{#1}}
- %   \llap{\contour{white}{#1}}%
-}
+\newcommand{\phuline}[1]{\uline{\phantom{#1}}}%   \llap{\contour{white}{#1}}%}
 
 
 \newcommand{\uhref}[2]{\href{#1}{\phuline{#2}}}
