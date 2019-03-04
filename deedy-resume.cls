@@ -58,8 +58,8 @@
 \contourlength{0.8pt}
 
 \newcommand{\phuline}[1]{%
-    \protect\uline{\protect\phantom{#1}}%
-    \protect\llap{\protect\contour{white}{#1}}%
+    \uline{\phantom{#1}}%
+    \llap{\contour{white}{#1}}%
 }
 
 
