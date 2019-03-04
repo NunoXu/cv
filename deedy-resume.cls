@@ -48,7 +48,7 @@
 %	LINKS STYLING
 %----------------------------------------------------------------------------------------
 \hypersetup{%
-    allcolors=same,
+    allcolors=black,
     urlbordercolor=gray,
     pdfborderstyle={/S/U/W 0.5},% border style will be underline of width 1pt
     pdfborder=0 0 0.5% border style will be underline of width 1pt
