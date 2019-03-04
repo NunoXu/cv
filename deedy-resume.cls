@@ -10,7 +10,9 @@
 
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage{hyperref} % Required for links
-\usepackage{soul}
+\usepackage{contour}
+\usepackage{ulem}
+
 %----------------------------------------------------------------------------------------
 %	COLORS
 %----------------------------------------------------------------------------------------
@@ -50,8 +52,17 @@
 \hypersetup{%
     hidelinks
 }
-\setuldepth{a}
-\newcommand{\uhref}[2]{\href{#1}{\ul{#2}}}
+
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\phuline}[1]{%
+    \uline{\phantom{#1}}%
+    \llap{\contour{white}{#1}}%
+}
+
+\newcommand{\uhref}[2]{\href{#1}{\phuline{#2}}}
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
 %----------------------------------------------------------------------------------------
