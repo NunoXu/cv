@@ -23,6 +23,7 @@
 \definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
 \definecolor{subheadings}{HTML}{333333} % The color of subsections and places worked/studied
 \definecolor{date}{HTML}{666666} % The color used for the Last Updated text at the top right
+\definecolor{ww}{HTML}{FFFFFF} % The color used for the Last Updated text at the top right
 
 %----------------------------------------------------------------------------------------
 %	FONTS
