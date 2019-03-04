@@ -17,7 +17,7 @@
 %	COLORS
 %----------------------------------------------------------------------------------------
 
-\usepackage[usenames,dvipsnames]{xcolor} % Required for custom colors
+\usepackage[dvipsnames]{xcolor} % Required for custom colors
 
 \definecolor{primary}{HTML}{2b2b2b} % The primary document color for content text
 \definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
