@@ -58,8 +58,8 @@
 \contourlength{0.8pt}
 
 \newcommand{\phuline}[1]{%
-    \uline{\phantom{#1}}%
-    \llap{\contour{white}{#1}}%
+    \protect\uline{\phantom{#1}}%
+    \protect\llap{\contour{white}{#1}}%
 }
 
 \newcommand{\uhref}[2]{\href{#1}{\phuline{#2}}}
