@@ -58,7 +58,7 @@
 \contourlength{0.8pt}
 
 \newcommand{\phuline}[1]{%
-%    \uline{\phantom{#1}}%
+   \uline{\phantom{#1}}%
  %   \llap{\contour{white}{#1}}%
 }
 
